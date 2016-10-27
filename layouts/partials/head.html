@@ -1,0 +1,18 @@
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="sVbzfPZIdEtahwfMSgyzl_aIQgwyL3FxID9BhEpyy-w" />
+  {{.Hugo.Generator}}
+  <title>{{- if .IsHome }}{{- .Title | plainify }}{{- else }}{{- .Title | plainify }} &middot; {{ .Site.Title }}{{- end }}</title>
+  <link href="/css/layout.css" rel="stylesheet" type="text/css" />
+  <link href="/css/syntax.css" rel="stylesheet" type="text/css" />
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link href="/img/favicon.ico" rel="shortcut icon" />
+
+  {{ range .Site.Params.custom_css }}
+    <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
+  {{ end }}
+  {{ range .Site.Params.custom_js }}
+    <script src="{{ $.Site.BaseURL }}{{ . }}"></script>
+  {{ end }}
+</head>

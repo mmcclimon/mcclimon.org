@@ -1,0 +1,22 @@
+{{ partial "header.html" . }}
+
+<p style="float:right"><a href="/blog/index.xml">RSS</a></p>
+
+{{ range .Paginator.Pages }}
+<div class="post">
+  <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a></h2>
+  <p class="meta">{{ .Date.Format "January 2, 2006" }}</p>
+  <div class="post-content">
+    {{if .Truncated }}
+      {{ .Summary }}
+      <p><a href="{{ .RelPermalink }}">More...</a></p>
+    {{ else }}
+      {{ .Content }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+
+{{ partial "paginator.html" . }}
+
+{{ partial "footer.html" . }}

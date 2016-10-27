@@ -1,0 +1,299 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: Junicode;
+  src: local("Junicode"), url("/css/woff/Junicode.woff"); }
+@font-face {
+  font-family: Junicode;
+  src: local("Junicode-Bold"), url("/css/woff/Junicode-Bold.woff");
+  font-weight: bold; }
+@font-face {
+  font-family: Junicode;
+  src: local("Junicode-Italic"), url("/css/woff/Junicode-Italic.woff");
+  font-style: italic; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Junicode, Garamond, Georgia, "Times New Roman", Times, serif;
+  font-size: 12pt;
+  line-height: 1.5;
+  background: #6d6e70;
+  margin: 0;
+  padding: 0;
+  color: black; }
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl {
+  padding: 0;
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6, p {
+  padding-right: 15px;
+  padding-left: 15px; }
+
+h1 {
+  font-size: 2em;
+  line-height: 1em;
+  margin-top: .5em;
+  margin-bottom: 1em; }
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1em;
+  margin-top: .75em;
+  margin-bottom: .75em; }
+
+h3 {
+  font-size: 1.15em;
+  line-height: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: normal; }
+
+h4 {
+  font-size: 1em;
+  line-height: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em; }
+
+h5 {
+  font-size: 12pt;
+  font-weight: 400;
+  margin-top: .98em;
+  margin-bottom: .45em; }
+
+p {
+  margin-bottom: 1em; }
+
+h3 + h4 {
+  margin-top: 0; }
+
+h5 + p {
+  margin-top: 0; }
+
+a {
+  text-decoration: underline; }
+  a:link {
+    color: #414958; }
+  a:visited {
+    color: #4E5869; }
+  a:hover, a:active, a:focus {
+    text-decoration: none; }
+  a img {
+    border: none; }
+
+code {
+  font-size: 0.85em; }
+
+/* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
+.container {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  background: #FBFBEF; }
+  .container:before, .container:after {
+    content: " ";
+    display: table; }
+  .container:after {
+    clear: both; }
+
+/* full width */
+.header {
+  font-family: "PT Sans Narrow", "Helvetica Neue 300", Helvetica, sans-serif;
+  font-size: 115%;
+  padding: 0px 8px;
+  background: #7d110c;
+  position: relative;
+  border-bottom: solid 2px #6D6E70;
+  margin-bottom: 15px; }
+
+/* nav elements */
+.nav ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+  .nav ul li {
+    display: inline;
+    vertical-align: bottom; }
+  .nav ul li a {
+    font-family: "PT Sans Narrow", "Helvetica Neue 300", Helvetica, sans-serif;
+    float: left;
+    text-decoration: none;
+    color: #FFF;
+    padding: 5px 8px;
+    background-color: #7d110c; }
+    .nav ul li a:visited {
+      color: white; }
+    .nav ul li a:hover {
+      color: white;
+      background-color: #8090AB; }
+
+.content {
+  padding: 10px 0; }
+  .content ul, .content ol {
+    padding: 0 15px 15px 50px; }
+  .content ul {
+    list-style-type: disc; }
+  .content li {
+    margin-top: .725em; }
+  .content ul ul {
+    padding-left: 20px; }
+
+.footer {
+  font-size: 10pt;
+  padding: 10px 0;
+  background: #B0B2B4;
+  border-top: solid 2px #6D6E70; }
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.indent {
+  text-indent: 1.75em; }
+
+.hang {
+  text-indent: -2.75em;
+  margin-left: 2.75em; }
+
+.fltrt {
+  float: right;
+  margin-left: 8px; }
+
+.fltlft {
+  float: left;
+  margin-right: 8px; }
+
+.clearfloat {
+  clear: both;
+  height: 0;
+  font-size: 1px;
+  /*line-height: 0px;*/ }
+
+#transcriptions h5 {
+  margin-left: 1em; }
+#transcriptions p {
+  margin-left: 2.5em; }
+
+#copyright {
+  font-size: 80%; }
+
+div#connect h3 {
+  margin-bottom: 0; }
+div#connect ul {
+  list-style-type: none;
+  margin-left: -18px li;
+    margin-left-margin-top: 0; }
+div#connect i.fa-twitter {
+  color: #55acee; }
+
+/* Post styles */
+p.meta {
+  font-size: .8em;
+  color: #444444; }
+
+span.page_number {
+  color: #444444; }
+
+div.post {
+  margin-top: 2em; }
+  div.post pre {
+    margin: 2em;
+    font-size: .9em; }
+
+div.post-content {
+  padding: auto 1.5em;
+  margin-left: 2em;
+  max-width: 35em; }
+  div.post-content hr {
+    margin: 0 10em; }
+  div.post-content h2 {
+    font-size: 1.25em; }
+    div.post-content h2.post-title {
+      margin-bottom: .5em; }
+
+div.pagination {
+  margin: 2em auto 0;
+  text-align: center; }
+
+h1#post-title {
+  font-size: 1.75em;
+  margin-bottom: .5em; }
+
+h3 span.small {
+  font-size: .75em;
+  font-weight: normal; }
+
+img#about-headshot {
+  width: 200px; }
+  @media screen and (max-width: 480px) {
+    img#about-headshot {
+      margin: 0 1em 15px 15px; } }
+  @media screen and (min-width: 480px) {
+    img#about-headshot {
+      float: right;
+      margin: 0 1em 10px 30px; } }
+
+@media screen and (max-width: 480px) {
+  div#bioPics img#m-c {
+    width: 85%;
+    margin: 15px; } }
+@media screen and (min-width: 480px) {
+  div#bioPics img#m-c {
+    width: 40%;
+    padding: 15px; } }
+@media screen and (max-width: 480px) {
+  div#bioPics img#cats {
+    width: 85%;
+    margin: 15px; } }
+@media screen and (min-width: 480px) {
+  div#bioPics img#cats {
+    width: 40%;
+    vertical-align: top;
+    padding: 15px; } }
+
+div#cv {
+  margin-bottom: 2em; }
+  div#cv p {
+    margin: 0; }
+  div#cv p.mtop {
+    margin-top: 0.75em; }
+  div#cv h3 {
+    font-weight: bold;
+    margin-top: 1.5em; }
+  div#cv ul {
+    list-style-position: inside;
+    padding: 0;
+    margin-left: 1.75em; }
+  div#cv ul li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    div#cv ul li:before {
+      content: "\00b7\0020"; }
+    div#cv ul li.list-header {
+      font-style: italic; }
+      div#cv ul li.list-header:before {
+        content: ""; }
+  div#cv div.cv-content {
+    margin-left: 2em; }
+  div#cv h5 {
+    font-weight: bold; }
+  div#cv h5 + h5 {
+    margin-top: 1.5em; }
+
+div#tune-list h3 {
+  margin-top: 1.75em;
+  margin-bottom: .85em;
+  font-size: 1.1em; }
+div#tune-list p {
+  margin-left: 2em; }
+
+/*# sourceMappingURL=layout.css.map */
