@@ -259,6 +259,9 @@ img#about-headshot {
     vertical-align: top;
     padding: 15px; } }
 
+ul li {
+  list-style-type: "-  "; }
+
 div#cv {
   margin-bottom: 2em; }
   div#cv p {
@@ -274,10 +277,7 @@ div#cv {
     margin-left: 1.75em; }
   div#cv ul li {
     margin: 0;
-    padding: 0;
-    list-style-type: none; }
-    div#cv ul li:before {
-      content: "\00b7\0020"; }
+    padding: 0; }
     div#cv ul li.list-header {
       font-style: italic; }
       div#cv ul li.list-header:before {

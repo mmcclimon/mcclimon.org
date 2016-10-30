@@ -250,6 +250,10 @@ div#bioPics {
   }
 }
 
+ul li {
+    list-style-type: "-  ";
+}
+
 div#cv {
   margin-bottom: 2em;
   p { margin: 0; }
@@ -268,8 +272,6 @@ div#cv {
   ul li {
     margin: 0;
     padding: 0;
-    list-style-type: none;
-    &:before { content: "\00b7\0020"; }
     &.list-header {
       font-style: italic;
       &:before { content: ""; }
@@ -279,7 +281,6 @@ div#cv {
   h5 { font-weight: bold; }
   h5 + h5 { margin-top: 1.5em; }
 }
-
 
 div#tune-list {
     h3 {
