@@ -1,6 +1,8 @@
 ---
 date: 2014-10-31T14:03:00Z
 title: 'bibkeys: Make BibTeX less annoying'
+tags:
+  - software
 aliases:
   - /blog/2014/10/31/bibkeys.html
 ---

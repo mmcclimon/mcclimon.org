@@ -1,6 +1,8 @@
 ---
 date: 2013-09-24T00:00:00Z
 title: Introducing Mr. Poole
+tags:
+  - software
 aliases:
   - /blog/2013/09/24/introducing_mr_poole.html
 ---

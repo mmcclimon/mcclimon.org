@@ -1,6 +1,8 @@
 ---
 date: 2015-10-27T00:00:00Z
 title: Reconceptualizing the <i>Lydian Chromatic Concept</i>
+tags:
+  - papers
 aliases:
   - /blog/2015/10/27/reconceptualizing_the_lydian_chromatic_concept.html
 ---

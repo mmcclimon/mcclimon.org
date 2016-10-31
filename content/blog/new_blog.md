@@ -1,6 +1,8 @@
 ---
 date: 2013-09-18
-title: New Blog (again)
+title: New Blog
+tags:
+  - news
 aliases:
   - /blog/2013/09/18/new_blog.html
 ---
@@ -13,6 +15,8 @@ that yourself. Partly as a result of studying for said exams, I'm often
 thinking about things that I should write down, and here's where I'm going to
 write them (here we see Michael justifying his newest procrastination
 technique).
+
+<!--more-->
 
 ## About the blog
 

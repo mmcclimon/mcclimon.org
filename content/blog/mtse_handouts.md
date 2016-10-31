@@ -1,6 +1,8 @@
 ---
 date: 2015-03-10T00:00:00Z
 title: 'Diatonic Spaces in Jazz: A Transformational Approach (materials)'
+tags:
+  - papers
 aliases:
   - /blog/2015/03/10/mtse_handouts.html
 ---
