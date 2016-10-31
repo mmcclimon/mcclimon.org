@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+
+<h1>{{ .Title }}</h1>
+
+<p>See all blog posts tagged:</p>
+
+<ul class="taglist">
+{{ $data := .Data }}
+{{ range  .Data.Terms.ByCount }}
+<li><a href="{{ .Name | urlize }}"> {{ .Name | humanize }}</a>
+  ({{ .Count }} posts) </li>
+{{ end }}
+</ul>
+
+{{ partial "footer.html" . }}

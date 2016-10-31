@@ -6,3 +6,6 @@ MetaDataFormat: yaml
 Paginate: 5
 PluralizeListTitles: false
 canonifyurls: true
+
+taxonomies:
+  tag: "tags"

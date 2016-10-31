@@ -198,6 +198,10 @@ p.meta {
   font-size: .8em;
   color: #444444; }
 
+p.tags {
+    margin-top: 2em;
+    text-align: right; }
+
 span.page_number {
   color: #444444; }
 

@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+
+<h1>Posts in {{ .Title }} </h1>
+
+{{ range .Paginator.Pages }}
+<div class="post">
+  <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a></h2>
+  <p class="meta">{{ .Date.Format "January 2, 2006" }}</p>
+  <div class="post-content">
+    {{if .Truncated }}
+      {{ .Summary }}
+      <p><a href="{{ .RelPermalink }}">More...</a></p>
+    {{ else }}
+      {{ .Content }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+
+
+{{ partial "footer.html" . }}

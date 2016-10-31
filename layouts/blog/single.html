@@ -5,7 +5,10 @@
 
 <div class="post-content">
 {{ .Content }}
+
+{{ partial "tags.html" . }}
 </div>
+
 
 <p class="meta"><a href="/blog/">Blog home</a></p>
 {{ partial "footer.html" . }}

@@ -1,6 +1,8 @@
 ---
 title: New Blog (again)
 date: 2016-10-31T17:12:27-04:00
+tags:
+  - news
 ---
 
 This site has, once again, changed on the backend without noticably changing
