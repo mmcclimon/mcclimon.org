@@ -5,7 +5,7 @@ title: "Michael McClimon"
 MetaDataFormat: yaml
 Paginate: 5
 PluralizeListTitles: false
-canonifyurls: true
+canonifyurls: false
 
 taxonomies:
   tag: "tags"
