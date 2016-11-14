@@ -1,7 +1,6 @@
 ---
 title: Election thoughts
 date: 2016-11-10T17:21:33-05:00
-draft: true
 tags:
     - politics
 ---
