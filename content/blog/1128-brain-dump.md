@@ -1,7 +1,6 @@
 ---
 title: Brain dump for 11/28
 date: 2016-11-28T19:40:11-05:00
-draft: true
 tags:
   - brain dump
 ---
@@ -50,6 +49,4 @@ some things we've watched recently:
 
 That'll be all for today. Next project: figure out footnote formatting here.
 
-[^1]: A juggling metaphor! It's been way too long since I've taken a deep dive
-    into juggling YouTube videos. But for now,
-    [here's one of my favorites](https://www.youtube.com/watch?v=qjHoedoSUXY).
+[^1]: A juggling metaphor! It's been way too long since I've taken a deep dive into juggling YouTube videos. But for now, [here's one of my favorites](https://www.youtube.com/watch?v=qjHoedoSUXY).

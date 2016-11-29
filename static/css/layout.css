@@ -89,6 +89,13 @@ a {
 code {
   font-size: 0.85em; }
 
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em; }
+sub {
+  top: 0.4em; }
+
 /* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
 .container {
   *zoom: 1;
@@ -303,3 +310,17 @@ div#tune-list h3 {
   font-size: 1.1em; }
 div#tune-list p {
   margin-left: 2em; }
+
+
+div.footnotes{
+    margin-top: 4em;
+    font-size: 90%; }
+div.footnotes hr {
+    margin-left: 0;
+    width: 50%;
+}
+div.footnotes ol {
+    padding-left: 15px; }
+a.footnote-return {
+    display: inline;
+}
