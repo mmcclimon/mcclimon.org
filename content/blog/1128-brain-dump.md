@@ -50,6 +50,4 @@ some things we've watched recently:
 
 That'll be all for today. Next project: figure out footnote formatting here.
 
-[^1]: A juggling metaphor! It's been way too long since I've taken a deep dive
-    into juggling YouTube videos. But for now,
-    [here's one of my favorites](https://www.youtube.com/watch?v=qjHoedoSUXY).
+[^1]: A juggling metaphor! It's been way too long since I've taken a deep dive into juggling YouTube videos. But for now, [here's one of my favorites](https://www.youtube.com/watch?v=qjHoedoSUXY).
