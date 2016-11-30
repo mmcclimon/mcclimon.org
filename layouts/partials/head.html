@@ -6,8 +6,11 @@
   <title>{{- if .IsHome }}{{- .Title | plainify }}{{- else }}{{- .Title | plainify }} &middot; {{ .Site.Title }}{{- end }}</title>
   <link href="/css/layout.css" rel="stylesheet" type="text/css" />
   <link href="/css/syntax.css" rel="stylesheet" type="text/css" />
+
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link href="/img/favicon.ico" rel="shortcut icon" />
+
+  <script src="/js/jquery-plus-bigfoot.min.js"></script>
 
   {{ range .Site.Params.custom_css }}
     <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
