@@ -1,6 +1,5 @@
 /* Fonts */
-@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
-@import url(https://fonts.googleapis.com/css?family=PT+Sans:400);
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Crimson+Text:400,600|Open+Sans');
 
 @font-face {
   font-family: Junicode;
@@ -22,12 +21,14 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
   padding: 0; }
 
 /* ~~ Element/tag selectors ~~ */
-
-body {
-  font-family: Junicode, Garamond, Georgia, "Times New Roman", Times, serif;
-  font-size: 12pt;
-  line-height: 1.5;
+html {
   background: #6d6e70;
+}
+body {
+  font-family: "Crimson Text", Garamond, Georgia, "Times New Roman", Times, serif;
+  font-size: 13pt;
+  line-height: 1.5;
+  background: linear-gradient(#8d8e90, #6d6e70);
   margin: 0;
   padding: 0;
   color: black; }
@@ -37,7 +38,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding-left: 15px; }
 
 h1 {
-  font-family: "PT Sans", "Helvetica Neue 300", Helvetica, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue 300", Helvetica, sans-serif;
   font-weight: normal;
   font-size: 2em;
   line-height: 1em;
@@ -45,19 +46,22 @@ h1 {
   margin-bottom: 1em; }
 
 h2 {
+  font-family: "Open Sans", "Helvetica Neue 300", Helvetica, sans-serif;
   font-size: 1.5em;
-  line-height: 1em;
+  line-height: 1.25em;
   margin-top: .75em;
   margin-bottom: .75em; }
 
 h3 {
+  font-family: "Open Sans", "Helvetica Neue 300", Helvetica, sans-serif;
   font-size: 1.15em;
   line-height: 1em;
-  margin-top: 1em;
+  margin-top: 1.25em;
   margin-bottom: 1em;
   font-weight: normal; }
 
 h4 {
+  font-family: "Open Sans", "Helvetica Neue 300", Helvetica, sans-serif;
   font-size: 1em;
   line-height: 1em;
   margin-bottom: 1em;
@@ -100,17 +104,17 @@ sub {
   top: 0.4em; }
 
 button {
-  font-family: Junicode, Garamond, Georgia, "Times New Roman", Times, serif;
+  font-family: "Crimson Text", Garamond, Georgia, "Times New Roman", Times, serif;
 }
 
 /* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
 .container {
   *zoom: 1;
-  max-width: 60em;
-  font-size: 1.05em;
+  max-width: 50em;
+  /* font-size: 1.05em; */
   margin-left: auto;
   margin-right: auto;
-  background: #F9F6F6; }
+  background: #F6F6F6; }
   .container:before, .container:after {
     content: " ";
     display: table; }
@@ -153,7 +157,7 @@ header {
       background-color: #8090AB; }
 
 main {
-  padding: 10px 0;
+  padding: 10px 0.5em;
   margin: 0 auto;
 }
 
@@ -215,11 +219,11 @@ div#connect i.fa-twitter {
 p.meta {
   font-size: .8em;
   color: #444444;
-  font-family: "PT Sans", "Helvetica Neue 300", Helvetica, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue 300", Helvetica, sans-serif;
 }
 
 p.tags {
-    font-family: "PT Sans", "Helvetica Neue 300", Helvetica, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue 300", Helvetica, sans-serif;
     font-size: .8em;
     margin-top: 2em;
     text-align: right; }
@@ -238,7 +242,7 @@ div.post pre {
 
 div.post h2.post-title {
     margin-bottom: .25em;
-    font-family: "PT Sans", "Helvetica Neue 300", Helvetica, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue 300", Helvetica, sans-serif;
     font-weight: normal;
 }
 div.post p.meta {
@@ -263,6 +267,8 @@ div.post-content h2.post-title {
 
 div.pagination {
   margin: 2em auto 0;
+  font-family: "Open Sans", "Helvetica Neue 300", Helvetica, sans-serif;
+  font-size: 0.9em;
   text-align: center; }
 
 h1#post-title {
@@ -270,7 +276,6 @@ h1#post-title {
   font-size: 1.75em;
   text-align:center;
   margin: 1em auto .5em;
-  font-family: "PT Sans", "Helvetica Neue 300", Helvetica, sans-serif;
   font-weight: normal;
   margin-bottom: 0.25em;
 }
@@ -344,7 +349,7 @@ div#cv {
   div#cv div.cv-content {
     margin-left: 2em; }
   div#cv h5 {
-    font-weight: bold; }
+    font-weight: 600; }
   div#cv h5 + h5 {
     margin-top: 1.5em; }
 
