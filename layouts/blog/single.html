@@ -9,6 +9,27 @@
 {{ partial "tags.html" . }}
 </div>
 
-
 <p class="meta"><a href="/blog/">Blog home</a></p>
+
+<script>
+// footnotes
+$.bigfoot({
+     actionOriginalFN: "ignore",
+     activateOnHover: true,
+     deleteOnUnhover: true,
+     numberResetSelector: "article",
+     buttonMarkup: (
+         '<div class="bigfoot-footnote__container">' +
+         ' <button href="#" class="bigfoot-footnote__button" rel="footnote"' +
+         ' id="{{`{{`}}SUP:data-footnote-backlink-ref}}"' +
+         ' data-footnote-number="{{`{{`}}FOOTNOTENUM}}"' +
+         ' data-footnote-identifier="{{`{{`}}FOOTNOTEID}}"' +
+         ' alt="See Footnote {{`{{`}}FOOTNOTENUM}}"' +
+         ' data-bigfoot-footnote="{{`{{`}}FOOTNOTECONTENT}}">' +
+         ' {{`{{`}}FOOTNOTENUM}}' +
+         ' </button>' +
+         ' </div>'
+     )
+ });
+</script>
 {{ partial "footer.html" . }}
