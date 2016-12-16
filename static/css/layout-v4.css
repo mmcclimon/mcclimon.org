@@ -265,6 +265,16 @@ div.post-content h2.post-title {
     margin-bottom: .5em;
 }
 
+div.post-content pre {
+    font-size: 11pt;
+    overflow-x: scroll;
+}
+
+div.highlight {
+    margin-bottom: 2em;
+
+}
+
 div.pagination {
   margin: 2em auto 0;
   font-family: "Open Sans", "Helvetica Neue 300", Helvetica, sans-serif;
