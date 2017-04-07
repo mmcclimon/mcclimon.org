@@ -1,6 +1,5 @@
 ---
 date: 2017-04-06T20:27:39-04:00
-draft: true
 title: I'm leaving academia (for now)
 tags: [news, life]
 ---

@@ -1,6 +1,5 @@
 ---
 date: 2017-04-06T20:25:00-04:00
-draft: true
 title: A new job at Pobox
 tags: [news, life]
 ---
