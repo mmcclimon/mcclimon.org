@@ -20,8 +20,8 @@ Matilda.
 
 
 <div id="bioPics">
-  <img src="http://files.mcclimon.org/img/bioPic.jpg" id="m-c" alt="pic" />
-  <img src="http://files.mcclimon.org/img/bioCats.jpg" id="cats" alt="cats" />
+  <img src="//files.mcclimon.org/img/bioPic.jpg" id="m-c" alt="pic" />
+  <img src="//files.mcclimon.org/img/bioCats.jpg" id="cats" alt="cats" />
 </div>
 
 [Back to About page](/about)
