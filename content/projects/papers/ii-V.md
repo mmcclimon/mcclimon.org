@@ -1,8 +1,8 @@
 ---
 title: Jazz Harmony, Transformations, and ii--V Space
+url: /projects/papers/ii-V/
 aliases:
   - /ii-V/
-  - /ii-V/index.html
   - /ii-V/abstract.html
   - /ii-V/examples.html
   - /ii-V/biblio.html
@@ -13,8 +13,9 @@ aliases:
 Paper presented at the annual meeting of the Society for Music Theory,
 Milwaukee, Wisconsin, November 2014
 
-- [Handout](//files.mcclimon.org/projects/lcc-smt-handout.pdf)
-- [Presentation slides](//files.mcclimon.org/projects/lcc-smt-slides.pdf)
+**Update**: This paper is now an article! It was published in 
+*Music Theory Online* 23.1 as 
+["Transformations in Tonal Jazz: ii-V Space"](http://www.mtosmt.org/issues/mto.17.23.1/mto.17.23.1.mcclimon.html).
 
 ## Abstract
 

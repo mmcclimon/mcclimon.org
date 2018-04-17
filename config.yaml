@@ -7,6 +7,7 @@ Paginate: 5
 PluralizeListTitles: false
 canonifyurls: false
 footnotereturnlinkcontents: "↩"
+disablePathToLower: true
 
 taxonomies:
   tag: "tags"
