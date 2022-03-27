@@ -271,8 +271,7 @@ div.post-content pre {
 }
 
 div.highlight {
-    margin-bottom: 2em;
-
+  margin-bottom: 2em;
 }
 
 div.pagination {
@@ -371,14 +370,14 @@ div#tune-list p {
   margin-left: 2em; }
 
 
-div.footnotes{
+section.footnotes{
     margin-top: 4em;
     font-size: 90%; }
-div.footnotes hr {
+section.footnotes hr {
     margin-left: 0;
     width: 50%;
 }
-div.footnotes ol {
+section.footnotes ol {
     padding-left: 15px; }
 a.footnote-return {
     display: inline;
