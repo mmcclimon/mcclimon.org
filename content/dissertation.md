@@ -1,5 +1,6 @@
 ---
 title: Dissertation
+url: /projects/dissertation/
 date: 2016-10-30T12:31:09-04:00
 ---
 
