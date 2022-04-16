@@ -300,11 +300,11 @@ h3 span.small {
   font-weight: normal; }
 
 img#about-headshot {
-  width: 200px; }
-  @media screen and (max-width: 480px) {
+  width: 300px; }
+  @media screen and (max-width: 600px) {
     img#about-headshot {
       margin: 0 1em 15px 15px; } }
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 600px) {
     img#about-headshot {
       float: right;
       margin: 0 1em 10px 30px; } }
