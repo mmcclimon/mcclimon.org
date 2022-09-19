@@ -341,11 +341,13 @@ div#cv {
     margin: 0; }
   div#cv p.mtop {
     margin-top: 0.75em; }
+  div#cv p.role {
+    margin-bottom: 0.75em; }
   div#cv h3 {
     font-weight: bold;
     margin-top: 1.5em; }
   div#cv ul {
-    list-style-position: inside;
+    list-style-position: outside;
     padding: 0;
     margin-left: 1.75em; }
   div#cv ul li {
@@ -356,7 +358,8 @@ div#cv {
       div#cv ul li.list-header:before {
         content: ""; }
   div#cv div.cv-content {
-    margin-left: 2em; }
+    margin-left: 2em;
+    width: 85% }
   div#cv h5 {
     font-weight: 600; }
   div#cv h5 + h5 {
