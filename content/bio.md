@@ -6,7 +6,7 @@ aliases:
 
 # Bio
 
-Michael McClimon is a software developer at [Fastmail](//www.fastmail.com),
+Michael McClimon is a senior software developer at [Fastmail](//www.fastmail.com),
 working mostly in Perl (for now). He's also a recovering music theorist, having
 previously held a teaching position at [Furman University](//www.furman.edu).
 He holds a PhD in theory from Indiana University, where he wrote a
@@ -15,7 +15,7 @@ harmony.
 
 When not at his day job, he serves the Senior Editorial Assistant for *Music
 Theory Online* and watches a lot of television.  Michael lives in Philadelphia
-his wife, Carolyn, and their two cats, Olivia and Matilda.
+with his wife, Carolyn, and their two cats, Olivia and Matilda.
 
 
 <div id="bioPics">
