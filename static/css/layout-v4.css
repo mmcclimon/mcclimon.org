@@ -215,6 +215,9 @@ div#connect ul {
 div#connect i.fa-twitter {
   color: #55acee; }
 
+div#connect i.fa-mastodon {
+  color: #563acc; }
+
 /* Post styles */
 p.meta {
   font-size: .8em;
