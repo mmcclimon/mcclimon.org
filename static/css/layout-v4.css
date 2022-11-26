@@ -218,6 +218,9 @@ div#connect i.fa-twitter {
 div#connect i.fa-mastodon {
   color: #563acc; }
 
+div#connect i.fa-envelope {
+  color: #0067B9; }
+
 /* Post styles */
 p.meta {
   font-size: .8em;
