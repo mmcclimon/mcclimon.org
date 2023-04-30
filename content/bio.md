@@ -7,7 +7,7 @@ aliases:
 # Bio
 
 Michael McClimon is a senior software engineer at
-[MongoDB](//www.mongodb.com), working on the Database Tools and Replication
+[MongoDB](//www.mongodb.com), working on the Database Tools and Replicator
 team. He spent six years at [Fastmail](//www.fastmail.com), where he worked on
 anything and everything written in Perl. He's also a recovering music
 theorist, having previously held a teaching position at [Furman
