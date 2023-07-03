@@ -17,12 +17,14 @@ transformational theory and jazz harmony.
 
 When not at his day job, he serves the Senior Editorial Assistant for *Music
 Theory Online* and watches a lot of television.  Michael lives in Philadelphia
-with his wife, Carolyn, and their two very old cats, Olivia and Matilda.
+with his wife, Carolyn. They're very sad about having recently lost their cat
+Olivia, and thankful they still have Matilda.
 
-
+{{< raw >}}
 <div id="bioPics">
   <img src="//files.mcclimon.org/img/bioPic.jpg" id="m-c" alt="pic" />
   <img src="//files.mcclimon.org/img/bioCats.jpg" id="cats" alt="cats" />
 </div>
+{{< /raw >}}
 
 [Back to About page](/about)
