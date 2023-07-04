@@ -18,10 +18,26 @@ very uncommon name, I have occasionally been confused for other people.
 - I am not, by any account, a [blockchain engineer](https://github.com/michaelmcclimon/),
   even though [Web3 is Going Just Great](https://web3isgoinggreat.com/).
 
+---
+
+I believe that I'm the only Michael McClimon that would leave you with
+[some Heine, care of Schubert](https://www.youtube.com/watch?v=j24i8-kx8-c).
+
+> Da steht auch ein Mensch und starrt in die Höhe,  
+> Und ringt die Hände, vor Schmerzensgewalt;  
+> Mir graust es, wenn ich sein Antlitz sehe,  
+> Der Mond zeigt mir meine eigne Gestalt.
+
+(My own translation)  
+There is also a man, standing and staring ino the heavens  
+wringing his hands with violent pain.  
+I am horrified when I see his face;  
+the moon reveals my own image.
+
 {{< raw >}}
 <section class="footnotes">
 <p>(Shout out to my friend <a href="https://blog.plover.com/">Mark Dominus</a>, who pointed
-me at <a href="https://web3isgoinggreat.com/">Dennis Ritchie's page</a>) that is the inspiration for this one.)
+me at <a href="https://web3isgoinggreat.com/">Dennis Ritchie's page</a> that is the inspiration for this one.)
 </section>
 
 {{< /raw >}}

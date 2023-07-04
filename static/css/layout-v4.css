@@ -107,6 +107,13 @@ button {
   font-family: "Crimson Text", Garamond, Georgia, "Times New Roman", Times, serif;
 }
 
+hr {
+  border: none;
+  border-bottom: 1px solid #6d6e70;
+  width: 65%;
+  margin-bottom: 1em;
+}
+
 /* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
 .container {
   *zoom: 1;
