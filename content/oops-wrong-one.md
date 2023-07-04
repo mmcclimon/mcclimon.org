@@ -36,8 +36,9 @@ the moon reveals my own image.
 
 {{< raw >}}
 <section class="footnotes">
-<p>(Shout out to my friend <a href="https://blog.plover.com/">Mark Dominus</a>, who pointed
-me at <a href="https://web3isgoinggreat.com/">Dennis Ritchie's page</a> that is the inspiration for this one.)
+<p>(Shout out to my friend <a href="https://blog.plover.com/">Mark Dominus</a>,
+who pointed me at <a href="https://www.bell-labs.com/usr/dmr/www/otherlives.html">Dennis Ritchie's page</a>
+that is the inspiration for this one.)
 </section>
 
 {{< /raw >}}
