@@ -29,7 +29,7 @@ I believe that I'm the only Michael McClimon that would leave you with
 > Der Mond zeigt mir meine eigne Gestalt.
 
 (My own translation)  
-There is also a man, standing and staring ino the heavens  
+There is also a man, standing and staring into the heavens  
 wringing his hands with violent pain.  
 I am horrified when I see his face;  
 the moon reveals my own image.
