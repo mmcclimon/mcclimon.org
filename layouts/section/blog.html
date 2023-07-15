@@ -15,7 +15,8 @@
 {{ partial "paginator.html" . }}
 
 <script>
-littlefoot.littlefoot({
+document.getElementById("littlefoot-script-load").onload = () => {
+  littlefoot.littlefoot({
     actionOriginalFN: "ignore",
     allowDuplicates: false,
     activateOnHover: true,
@@ -25,11 +26,12 @@ littlefoot.littlefoot({
     numberResetSelector: "div.post-content",
     buttonTemplate: `
 <button aria-label="Footnote <% number %>" class="littlefoot__button" id="<% reference %>" />
-  <% number %>
+<% number %>
 </button>`,
- });
+   });
 
-document.querySelectorAll('.footnotes.littlefoot--print, .footnotes .littlefoot--print').forEach(e => e.classList.remove('littlefoot--print'))
-document.querySelectorAll('.footnote-backref').forEach((el) => { el.href = el.href.replace('#', '#lf-') })
+  document.querySelectorAll('.footnotes.littlefoot--print, .footnotes .littlefoot--print').forEach(e => e.classList.remove('littlefoot--print'))
+  document.querySelectorAll('.footnote-backref').forEach((el) => { el.href = el.href.replace('#', '#lf-') })
+}
 </script>
 {{ partial "footer.html" . }}
