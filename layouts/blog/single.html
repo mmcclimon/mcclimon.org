@@ -11,25 +11,5 @@
 
 <p class="meta"><a href="/blog/">Blog home</a></p>
 
-<script>
-document.getElementById("littlefoot-script-load").onload = () => {
-  // footnotes
-  littlefoot.littlefoot({
-    actionOriginalFN: "ignore",
-    allowDuplicates: false,
-    activateOnHover: true,
-    dismissOnUnhover: true,
-    dismissDelay: 100,
-    hoverDelay: 250,
-    numberResetSelector: "div.post-content",
-    buttonTemplate: `
-<button aria-label="Footnote <% number %>" class="littlefoot__button" id="<% reference %>" />
-<% number %>
-</button>`,
-  });
-
-  document.querySelectorAll('.footnotes.littlefoot--print, .footnotes .littlefoot--print').forEach(e => e.classList.remove('littlefoot--print'))
-  document.querySelectorAll('.footnote-backref').forEach((el) => { el.href = el.href.replace('#', '#lf-') })
-};
-</script>
+<script async src="/js/littlefoot.js"></script>
 {{ partial "footer.html" . }}
