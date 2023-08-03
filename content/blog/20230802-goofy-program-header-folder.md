@@ -21,7 +21,7 @@ Your mail client will definitely show you some of these headers: From, To,
 Subject, and Date are all headers. (CC is also a header, but BCC is _not_ a
 header, even though it looks like one; email is weird.) There's a lot more
 your mail client probably hides from you, because most people don't ever need
-to care about them. They contain thing like authentication information
+to care about them. They contain things like authentication information
 (DKIM-Signature, Authentication-Results headers), the path it took to get to
 your inbox (Received headers), information about the structure of the message
 (Content-Type, Content-Transfer-Encoding), and lots of other stuff
