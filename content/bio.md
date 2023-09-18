@@ -17,8 +17,8 @@ transformational theory and jazz harmony.
 
 When not at his day job, he serves the Senior Editorial Assistant for *Music
 Theory Online* and watches a lot of television.  Michael lives in Philadelphia
-with his wife, Carolyn. They're very sad about having recently lost their cat
-Olivia, and thankful they still have Matilda.
+with his wife, Carolyn. They're both sad about having recently lost both of
+their very old cats, Olivia and Matilda.
 
 {{< raw >}}
 <div id="bioPics">
