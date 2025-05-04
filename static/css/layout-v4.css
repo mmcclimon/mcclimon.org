@@ -285,6 +285,7 @@ div.highlight {
   margin: 1em 1em 2em 1em;
   padding-left: 0.5em;
   font-size: 85%;
+  overflow: auto;
 }
 
 div.pagination {
@@ -405,6 +406,14 @@ blockquote {
     margin-right: 10em;
     border-left: 3px solid #b0b2b4;
     color: #444;
+}
+@media screen and (max-width: 480px) {
+    blockquote {
+    margin-left: 1em;
+    margin-right: 1em;
+    border-left: 3px solid #b0b2b4;
+    color: #444;
+    }
 }
 
 /* from littlefoot.css */
