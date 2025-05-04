@@ -282,7 +282,9 @@ div.post-content pre {
 }
 
 div.highlight {
-  margin-bottom: 2em;
+  margin: 1em 1em 2em 1em;
+  padding-left: 0.5em;
+  font-size: 85%;
 }
 
 div.pagination {

@@ -11,3 +11,11 @@ disablePathToLower: true
 
 taxonomies:
   tag: "tags"
+
+markup:
+  highlight:
+    lineNumbersInTable: true
+    noClasses: true
+    style: github
+    tabWidth: 2
+    wrapperClass: highlight
