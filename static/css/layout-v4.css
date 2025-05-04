@@ -398,6 +398,13 @@ a.footnote-return {
     display: inline;
 }
 
+blockquote {
+    margin-left: 3em;
+    margin-right: 10em;
+    border-left: 3px solid #b0b2b4;
+    color: #444;
+}
+
 /* from littlefoot.css */
 .littlefoot {
     --button-background-color:#949494;
