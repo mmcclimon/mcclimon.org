@@ -15,7 +15,7 @@ are some other things I've written.
 
 * [Writing Text with Flag Emojis](/blog/writing-text-with-flag-emojis/) (blog post)
 * [An email I wrote about weird behavior in File::Temp](file-temp-email/)
-* ...
+* [A problem statement and project status report](gitlab-github-email/)
 
 
 ## Analysis samples
