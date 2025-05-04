@@ -29,5 +29,5 @@ are some other things I've written.
 These are both presentations given on Fastmail internals at Fastmail's
 internal-only dev conference.
 
-* 🚑 Selenium tests: WTF Even? 🚧 (to come)
+* [🚑 Selenium tests: WTF Even? 🚧](selenium-preso/)
 * 🚢 Looking under the hood of new hm deploys 🚢 (to come)
