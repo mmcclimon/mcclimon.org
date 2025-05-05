@@ -163,7 +163,7 @@ This would look at all the PRs tagged “include-in-deploy”, ask you to confir
 that the list contains the PRs you expect, do all the rebasing and merging
 required, and then push to master and tell you it’s done. (If this looks
 familiar, it’s because mint-tag already does this for Cyrus builds and for
-dogfood/beta Fastmail builds; mint-tag has already gained some smarts to do
+beta/staff Fastmail builds; mint-tag has already gained some smarts to do
 semi-linear merges.)
 
 In the second world, you’d instead say “mergebot, please merge fastmail/hm
@@ -171,7 +171,7 @@ In the second world, you’d instead say “mergebot, please merge fastmail/hm
 
 In either of these solutions, we could _probably_ combine the merge/deploy
 steps, such that you’d say, for Fastmail, “bort deploy fastmail/master” (which
-would assemble a master branch from PRs as it does for beta/dogfood now), or
+would assemble a master branch from PRs as it does for beta/staff now), or
 “bort deploy hm!123 hm!124 hm!42” (which is where we want to wind up
 eventually). But this has at least two big drawbacks: a) right now, Fastmail
 is the only repo we have that can be deployed by robot; and b) there are some

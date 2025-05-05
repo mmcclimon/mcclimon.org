@@ -68,7 +68,7 @@ each with their own idiosyncratic interface.)
 
 This situation was, maybe obviously, untenable. Our platform operators were
 spending an unreasonable amount of time observing, planning, scheduling, and
-monitoring user moves via a manual process that very prone to errors. This is
+monitoring user moves via a manual process that was very prone to errors. This is
 silly, because it's exactly the kind of thing computers are good at! By this
 time, I had something of a reputation for taking crufty old systems and making
 them much nicer to use, and so I turned my sights on the user mover.
