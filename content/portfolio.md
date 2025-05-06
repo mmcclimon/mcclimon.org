@@ -9,9 +9,9 @@ This is a collection of things I've done.
 
 ## Work samples
 
-* [mint-tag](mint-tag/)
 * [movemate](movemate/)
-* mongosync's embedded verifier (to come)
+* [mint-tag](mint-tag/)
+* [mongosync's embedded verifier](embedded-verifier/)
 
 ## Writing samples
 

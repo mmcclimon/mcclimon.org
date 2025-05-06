@@ -3,7 +3,7 @@ title: "Portfolio: Movemate"
 description: "This post describes `movemate`, which is a piece of software I wrote in mid-2022 at Fastmail to manage moves of user data between machines."
 ---
 
-# Movemate
+# movemate
 
 This post describes `movemate`, which is a piece of software I wrote in
 mid-2022 at Fastmail to manage moves of user data between machines.
