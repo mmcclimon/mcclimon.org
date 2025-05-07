@@ -32,4 +32,4 @@ These are both presentations given on Fastmail internals at Fastmail's
 internal-only dev conference.
 
 * [🚑 Selenium tests: WTF Even? 🚧](selenium-preso/)
-* 🚢 Looking under the hood of new hm deploys 🚢 (to come)
+* [🚢 Looking under the hood of new Fastmail deploys 🚢](new-deployment-preso/)
