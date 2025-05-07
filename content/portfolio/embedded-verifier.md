@@ -66,7 +66,7 @@ some constraints during the migration to improve write performance), then
 allows users to start using their destination cluster for reads and writes.
 
 When you're writing a data migration tool like this, the Prime Directive is
-very straightforward: **don't screw up the users' data**. When the migration
+very simple: **don't screw up the users' data**. When the migration
 is complete, the destination cluster must match the source cluster _exactly_.
 Mongosync has very extensive testing&nbsp;-- in some cases, even more
 extensive than the MongoDB Server itself&nbsp;-- to be sure that we're resilient
@@ -167,7 +167,7 @@ comparison. `GenerateResult` returns a Result object that you can inspect to
 determine whether or not the clusters match.
 
 Most of the logic isn't in the verifier object itself: it lives in an
-abstraction called the _auditor_. The verifier struct has a `ClusterAuditor`
+abstraction called the _auditor_. The verifier struct has two `ClusterAuditor`
 objects, one for both the source and destination clusters. An auditor is
 responsible for generating checksums for a single cluster.
 
@@ -182,7 +182,7 @@ Because the verifier's design is just "do the same thing in two places, and
 compare them at the end," it simplifies things a lot. Most notably, it's
 easier to test: you only need a single cluster, and you can test a full
 lifecycle from start to finish. The final comparison algorithm is
-straightforward (it's effectively iterating through two maps and asserting
+not even interesting (it's effectively iterating through two maps and asserting
 they match), and all of the complexity is in how we generate those maps.
 
 The auditor's job is to generate a checksum for every collection on the
