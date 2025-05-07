@@ -22,9 +22,8 @@ This is a collection of things I've done.
 
 ## Analysis samples
 
-* A bug I found in `git rebase` (to come)
-* A bug I found in MongoDB's oplog format (to come)
-* ...
+* [A bug I found in `git rebase`](git-bug/) (to come)
+* [A bug I found in MongoDB's oplog format](mongo-oplog-bug/) (to come)
 
 ## Presentation samples
 
