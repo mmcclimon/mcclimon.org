@@ -351,8 +351,6 @@ ul li li li {
 
 div#cv {
   margin-bottom: 2em; }
-  div#cv p {
-    margin: 0; }
   div#cv p.mtop {
     margin-top: 0.75em; }
   div#cv p.role {
@@ -374,6 +372,8 @@ div#cv {
   div#cv div.cv-content {
     margin-left: 2em;
     width: 85% }
+  div#cv div.cv-content p {
+    margin: 0 }
   div#cv h5 {
     font-weight: 600; }
   div#cv h5 + h5 {

@@ -20,17 +20,35 @@ have a lot of experience changing the wings while the plane is in flight, and
 take pride in my ability to design and deploy software that solves problems
 elegantly and maintainably.</p>
 
+<p>My <a href="/portfolio">portfolio</a> has more extended commentary on some of my technical work.
+
 
 <h3>Work Experience</h3>
 <div class="cv-content">
 
 <h4>MongoDB</h4>
-<p class="role">Senior Software Engineer (Feb. 2023&ndash;present)</p>
+<p class="role">Senior Software Engineer, DB Tools and Replicator (Feb. 2023&ndash;present)</p>
 
-<p>I'm on the Database Tools and Replicator team, working primarily on
-<a href="https://www.mongodb.com/docs/cluster-to-cluster-sync/current/reference/mongosync/">mongosync</a>
-and (more recently) its
-<a href="https://www.mongodb.com/docs/cluster-to-cluster-sync/current/reference/verification/embedded/">embedded verifier</a>.</p>
+<ul>
+<li>Designed and led implementation of mongosync’s
+    <a href="https://www.mongodb.com/docs/cluster-to-cluster-sync/current/reference/verification/embedded/">embedded verifier</a>,
+    which does full document verification of data migrated by mongosync
+    between MongoDB clusters. In the first 5 months after release,
+    verification rates for migrations into Atlas rose from 0% to more than
+    70%.</li>
+<li>Designed and led implementation of the live upgrade feature for
+    <a href="https://www.mongodb.com/docs/cluster-to-cluster-sync/current/reference/mongosync/">mongosync</a>,
+    which allows users to safely switch to a newer mongosync binary without
+    restarting their data migrations. This feature saved an important customer
+    many hours of compute resources by allowing them to upgrade a multi-terabyte
+    migration in flight, rather than needing to restart it from scratch to get the
+latest bug fixes.</li>
+<li>Redesigned and drove improvements to mongosync’s release process to
+    eliminate mandatory code freezes and increase developer productivity.</li>
+<li>Have been a valuable resource for junior engineers: two interns I mentored
+    got return offers, I consistently get feedback from juniors that my
+    guidance is helpful and valuable to their growth.</li>
+</ul>
 
 <h4>Fastmail</h4>
 <p class="role">Senior Backend Developer (Feb. 2022&ndash;Feb. 2023)<br>
